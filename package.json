@@ -1,0 +1,34 @@
+{
+  "name": "botdoespaco",
+  "version": "1.0.0",
+  "description": "A bot that displays various info about Space(ISS location, planet info etc...)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuiTheDev/SpaceBot.git"
+  },
+  "keywords": [
+    "bot",
+    "space",
+    "discord",
+    "iss",
+    "facts",
+    "planets",
+    "robot"
+  ],
+  "author": "GuiTheDev",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/GuiTheDev/SpaceBot/issues"
+  },
+  "homepage": "https://github.com/GuiTheDev/SpaceBot#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "temp-units-conv": "^1.0.2"
+  }
+}
